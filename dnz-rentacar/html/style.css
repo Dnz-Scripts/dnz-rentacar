@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.container{
+  background-color: transparent;
+  display: none;
+  
+}
+.geniskutu{
+  width: 670px;
+  height: 630px;
+  background-color: rgb(46, 46, 46);
+  margin: auto;
+  max-height: 650px;
+  max-width: 670px;
+  margin-top: 25px;
+border-radius: 1%;
+  border-right: 10px solid #5e5e5e;
+  
+  
+
+}
+.ickutu{
+  width: 670px;
+  height: 70px;
+  border-radius: 12%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(-45deg, transparent 5%, #838383 5%);
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  border: 1px;
+  border-radius: 1%;
+  
+}
+.altkutu{
+  width: 670px;
+  height: 70px;
+  background: linear-gradient(0deg, transparent 5%, #838383 5%);
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  border: 1px;
+  margin-top: 495px;
+  border-radius: 1%;
+}
+.kutu1{
+  width: 200px;
+  height: 150px;
+  background-color: #55485a;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 100px;
+  float: left;
+  background-image: url('panto.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border: 1px;
+  border-radius: 15px;
+}
+.kutu3{
+  width: 200px;
+  height: 150px;
+  background-color: #8e44ad;
+  margin-top: 250px;
+  margin-left: -500px;
+
+  
+  background-image: url('bike.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  float: left;
+  border-radius: 15px;
+  
+}
+.kutu2{
+  width: 200px;
+  height: 150px;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 80px;
+  float: left;
+  background-image: url('mesa.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border: 1px;
+  border-radius: 15px;
+}
+.buton1{
+  margin-top: 155px;
+  width: 200px;
+  border : 2 px solid red;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.kutu4{
+  width: 200px;
+  height: 150px;
+  background-color: #8e44ad;
+  margin-top: 250px;
+  margin-left: -210px;
+  float: left;
+  background-image: url('motor.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 15px;
+} 
+.fiyatbilgi{
+  width: 200px;
+  height: 20px;
+  background: linear-gradient(45deg, transparent 5%, #494949 5%);
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+
+#kapatma{
+
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    
+    
+
+}
+
+/* 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #F8F005;
+} */
+
+button, button::after {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+  background: linear-gradient(transparent 5%, #464646 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 50px;
+  box-shadow: 6px 4px 3px #99772e;
+  outline: transparent;
+  position: relative;
+}
